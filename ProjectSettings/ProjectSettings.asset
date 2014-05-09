@@ -10,12 +10,12 @@ PlayerSettings:
   targetGlesGraphics: 1
   targetResolution: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: phygantium2
+  companyName: martelab
+  productName: phygantium
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
-  defaultScreenWidth: 1024
-  defaultScreenHeight: 768
+  defaultScreenWidth: 480
+  defaultScreenHeight: 800
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
   m_RenderingPath: 1
@@ -26,7 +26,7 @@ PlayerSettings:
   m_UseDX11: 0
   iosShowActivityIndicatorOnLoading: -1
   androidShowActivityIndicatorOnLoading: -1
-  displayResolutionDialog: 1
+  displayResolutionDialog: 0
   allowedAutorotateToPortrait: 1
   allowedAutorotateToPortraitUpsideDown: 1
   allowedAutorotateToLandscapeRight: 1
@@ -34,14 +34,14 @@ PlayerSettings:
   useOSAutorotation: 1
   use32BitDisplayBuffer: 1
   use24BitDepthBuffer: 1
-  defaultIsFullScreen: 1
+  defaultIsFullScreen: 0
   defaultIsNativeResolution: 1
   runInBackground: 0
   captureSingleScreen: 0
   Override IPod Music: 0
   Prepare IOS For Recording: 0
   enableHWStatistics: 1
-  usePlayerLog: 1
+  usePlayerLog: 0
   stripPhysics: 0
   forceSingleInstance: 0
   resizableWindow: 0
@@ -109,7 +109,27 @@ PlayerSettings:
   AndroidKeystoreName: 
   AndroidKeyaliasName: 
   resolutionDialogBanner: {fileID: 0}
-  m_BuildTargetIcons: []
+  m_BuildTargetIcons:
+  - m_BuildTarget: 
+    m_Icons:
+    - m_Icon: {fileID: 0}
+      m_Size: 128
+  - m_BuildTarget: Standalone
+    m_Icons:
+    - m_Icon: {fileID: 2800000, guid: 6fcf151afe9e041469e5f258e1db38b6, type: 3}
+      m_Size: 1024
+    - m_Icon: {fileID: 2800000, guid: db4eeed8b6452b5478ab049a8432d322, type: 3}
+      m_Size: 512
+    - m_Icon: {fileID: 2800000, guid: 10c0d4a5b3971124aad66e4ee6c92223, type: 3}
+      m_Size: 256
+    - m_Icon: {fileID: 2800000, guid: b0b78ff3e3a313d4fb2cfab91a7338eb, type: 3}
+      m_Size: 128
+    - m_Icon: {fileID: 2800000, guid: 19fe042f7b9b557409e33b95471bc64a, type: 3}
+      m_Size: 48
+    - m_Icon: {fileID: 2800000, guid: 927130b3d74fafe44927532a4ce86260, type: 3}
+      m_Size: 32
+    - m_Icon: {fileID: 2800000, guid: 0fcbb2478d9a1f248af37c064814e9c9, type: 3}
+      m_Size: 16
   m_BuildTargetBatching: []
   webPlayerTemplate: APPLICATION:Default
   m_TemplateCustomTags: {}

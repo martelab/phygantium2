@@ -41,3 +41,15 @@ TagManager:
     userID: 0
     uniqueID: 0
     locked: 0
+  - name: background
+    userID: 1
+    uniqueID: 3463602555
+    locked: 1
+  - name: planet
+    userID: 2
+    uniqueID: 3075892005
+    locked: 0
+  - name: characters
+    userID: 3
+    uniqueID: 2736458637
+    locked: 0
