@@ -213,3 +213,13 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+############
+## Unity 3d aggiunto da Naico
+############
+/Temp
+/obj
+/library
+*.csproj
+*.unityproj
+*.sln
