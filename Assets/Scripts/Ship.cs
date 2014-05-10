@@ -3,17 +3,22 @@ using System.Collections;
 
 public class Ship : MonoBehaviour {
 
-	public float speedLanding = 100f;
+	public float speedLanding = 30f;
 	bool landed = false;
-
+	GameObject pianeta;
+	GameObject trivella;
 
 	void Start() {
 		landed = false;
+		pianeta = GameObject.Find("pianeta");
+		trivella = GameObject.Find ("trivella");
 	}
 
 
 	void Update (){
-		rigidbody2D.velocity = new Vector2(0,-speedLanding) * Time.deltaTime;
+		if(!landed){
+			rigidbody2D.velocity = new Vector2(0,-speedLanding) * Time.deltaTime;
+		}
 	}
 
 
@@ -30,18 +35,21 @@ public class Ship : MonoBehaviour {
 	}
 
 
+	// non so perchè ma viene eseguito ad ogni frame, non solo quando Enter collider
 	void OnTriggerEnter2D(Collider2D other) {
 		// stop landing start mining!
-		print ("toccato");
-		speedLanding = 0;
 		rigidbody2D.velocity = Vector2.zero;
-		GameObject obj=GameObject.Find("pianeta");
-		// attach a to b
-		transform.parent=obj.transform;
-		GameObject trivella=GameObject.Find("trivella");
-		trivella.transform.position = new Vector3(transform.position.x, (transform.position.y-1f),0);
-		trivella.renderer.enabled = true;
-		trivella.SendMessage ("Mina", 5f);
+
+		// attacco navicella al pianeta
+		// se non viene eseguito ad ogni frame, fa un lagghettino antipatico..
+		// quindi lo lascio fuori dal controllo seguente
+		transform.parent=pianeta.transform;
+
+		if(!landed){		
+			landed = true;
+			trivella.SendMessage ("Mina", new Vector3(transform.position.x, (transform.position.y-0.4f),0));
+		}
+
 	}
 
 }

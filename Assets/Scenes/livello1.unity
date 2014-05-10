@@ -84,6 +84,7 @@ GameObject:
   - 4: {fileID: 173962215}
   - 212: {fileID: 173962214}
   - 50: {fileID: 173962213}
+  - 114: {fileID: 173962216}
   m_Layer: 0
   m_Name: trivella
   m_TagString: Untagged
@@ -140,6 +141,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &173962216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 173962212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d26d18a3f078e2144a95cd65c1e68aa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  miningSpeed: 18
 --- !u!1 &611561354
 GameObject:
   m_ObjectHideFlags: 0
@@ -440,7 +453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cf8ff77bd010ed4d8b044c76f940e70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedLanding: 100
+  speedLanding: 30
 --- !u!61 &1970317079
 BoxCollider2D:
   m_ObjectHideFlags: 0

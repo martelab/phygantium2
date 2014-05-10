@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Mining.cs">
     <Files>
-      <File FileName="Assets\Scripts\Ship.cs" Line="44" Column="37" />
-      <File FileName="Assets\Scripts\Mining.cs" Line="19" Column="18" />
+      <File FileName="Assets\Scripts\Mining.cs" Line="6" Column="31" />
+      <File FileName="Assets\Scripts\Ship.cs" Line="45" Column="51" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
