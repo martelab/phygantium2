@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Ship.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Mining.cs">
     <Files>
-      <File FileName="Assets\Scripts\Ship.cs" Line="24" Column="17" />
-      <File FileName="Assets\Scripts\PlanetControls.cs" Line="6" Column="36" />
+      <File FileName="Assets\Scripts\Ship.cs" Line="44" Column="37" />
+      <File FileName="Assets\Scripts\Mining.cs" Line="19" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
